@@ -1,17 +1,19 @@
 import React from "react";
 import "./styles/global.css";
-import ContainerLayout from "./component/layout/ContainerLayout";
 import GridBackgroundLayout from "./component/layout/GridBackgroundLayout";
-import HeaderText from "./component/text/HeaderText";
+import Header from "./component/sections/Header";
+import About from "./component/sections/About";
+import Skills from "./component/sections/Skills";
 
 function App() {
   return (
-    <GridBackgroundLayout>
-      <ContainerLayout>
-        <h1>Hi, I'm Nigel 👋</h1>
-        <p>Solutions Engineer with a pasion for codeing.</p>
-      </ContainerLayout>
-    </GridBackgroundLayout>
+    <>
+      <GridBackgroundLayout>
+        <Header />
+        <About />
+        <Skills />
+      </GridBackgroundLayout>
+    </>
   );
 }
 

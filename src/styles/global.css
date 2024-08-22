@@ -16,6 +16,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  
 }
 
 body {
@@ -38,7 +39,7 @@ h5,
 h6 {
   line-height: var(--line-height-condensed);
   color: var(--text-white);
-  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-2);
 }
 
 h1 {
@@ -61,7 +62,8 @@ h6 {
 }
 
 p {
-  color: var(--text-secondary);
+  color: var(--text-white);
+  font-size: var(--font-size-1);
 }
 
 /* Links
@@ -69,6 +71,7 @@ p {
 a {
   color: var(--link-color);
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
@@ -679,6 +682,14 @@ button {
   background-color: var(--bg-gray);
 }
 
+.bg-darkblue {
+  background-color: #000d2a;
+}
+
+.bg-darkpurple {
+  background-color: #160735;
+}
+
 /* Borders */
 .border {
   border: 1px solid var(--border-color);
@@ -803,6 +814,11 @@ button {
 .w-75 {
   width: 75%;
 }
+
+.w-90 {
+  width: 90%;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -1076,7 +1092,6 @@ button {
   background-size: 1rem 1rem;
   width: 100%;
   min-height: 100vh;
-  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
