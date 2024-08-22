@@ -1,33 +1,35 @@
 /* Base Styles
    ========================================================================== */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+  :root {
+    --font-geist: 'Geist', sans-serif;
+  }
   
-}
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  body {
+    font-family: var(--font-geist), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: var(--font-size-3);
+    line-height: var(--line-height-default);
+    color: var(--text-white);
+    background-color: var(--bg-dark);
+  }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  font-size: var(--font-size-3);
-  line-height: var(--line-height-default);
-  color: var(--text-white);
-  background-color: var(--bg-dark);
-}
 
 /* Typography
      ========================================================================== */
@@ -1086,8 +1088,7 @@ button {
 
 .grid-background {
   background-color: var(--color-dark);
-  background-image: 
-    linear-gradient(var(--bg-gray-10) 1px, transparent 1px),
+  background-image: linear-gradient(var(--bg-gray-10) 1px, transparent 1px),
     linear-gradient(90deg, var(--bg-gray-10) 1px, transparent 1px);
   background-size: 1rem 1rem;
   width: 100%;
