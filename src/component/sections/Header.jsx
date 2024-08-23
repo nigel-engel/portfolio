@@ -15,7 +15,7 @@ const Header = () => {
         </div>
         <div>
           <Avatar
-          src="/public/assets/nigel_engel.jpeg" />
+          src="/assets/nigel_engel.jpeg" />
         </div>
       </FlexCenterLayout>
       <SocialLinksText />
