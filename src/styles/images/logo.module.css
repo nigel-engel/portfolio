@@ -1,7 +1,7 @@
 .logo {
-  width: 100%;
-  max-width: 250px;
-  margin: 0 auto;
-  radius: 50%;  
-
+  width: 100%; /* or use vw units: 10vw */
+  height: auto; /* maintains aspect ratio */
+  border-radius: 50%;
+  max-width: 40px; /* ensures it doesn't grow too large */
+  max-height: 40px;
 }

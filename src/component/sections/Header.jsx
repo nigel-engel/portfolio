@@ -14,7 +14,8 @@ const Header = () => {
           <SubHeadingText text="Solutions Engineer currently diving deep into Full-Stack Development." />
         </div>
         <div>
-          <Avatar />
+          <Avatar
+          src="/public/assets/nigel_engel.jpeg" />
         </div>
       </FlexCenterLayout>
       <SocialLinksText />

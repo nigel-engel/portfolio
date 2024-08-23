@@ -15,9 +15,9 @@ const Skills = () => {
       <Badge variant="bg-secondary" text="Problem Solving" />
       <Badge variant="bg-success" text="Pre Sales" />
       <Badge variant="bg-success" text="Product Demonstration" />
-      <Badge variant="bg-success" text="Technology Implementation " />
+      <Badge variant="bg-success" text="Implementation" />
     </ContainerLayout>
-  )
-}
+  );
+};
 
 export default Skills;
