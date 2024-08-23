@@ -25,7 +25,7 @@ const WorkExperience = () => {
       role="Lead Solutions Consultant"
       date="Mar 2023 - Sep 2023"  />
       <WorkExperienceUI
-      src="/public/assets/activecampaign.webp"
+      src="/public/assets/activecampaign.png"
       alt="ActiveCampaign logo"
       company ="ActiveCampaign"
       role="Solutions Consultant"
