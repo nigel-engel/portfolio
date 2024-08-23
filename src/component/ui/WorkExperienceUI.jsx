@@ -9,7 +9,7 @@ const WorkExperienceUI = ({ src, alt, company, role, date }) => {
         <div className="ml-3 flex justify-content-between items-center flex-grow-1">
           <div className="flex flex-column">
             <div>
-              <p className="fw-bold fs-2">{company}</p>
+              <p className="fw-bold">{company}</p>
             </div>
             <div>
               <p>{role}</p>
