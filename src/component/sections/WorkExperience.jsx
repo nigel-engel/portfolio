@@ -11,42 +11,42 @@ const WorkExperience = () => {
         alt="LinkedIn logo"
         company="ReCore"
         role="Building In Public"
-        date="Jun 2024 - Present"
+        date="Jun 24 - Present"
       />
       <WorkExperienceUI
         src="/assets/yotpo.png"
         alt="Yotpo logo"
         company="Yotpo"
         role="Onboarding Manager"
-        date="Mar 2023 - Sep 2023"
+        date="Mar 23 - Sep 23"
       />
       <WorkExperienceUI
         src="/assets/drift.png"
         alt="Drift logo"
         company="Drift"
         role="Lead Solutions Consultant"
-        date="Mar 2023 - Sep 2023"
+        date="Mar 23 - Sep 23"
       />
       <WorkExperienceUI
         src="/assets/activecampaign.png"
         alt="ActiveCampaign logo"
         company="ActiveCampaign"
         role="Solutions Consultant"
-        date="Feb 2020 - Jul 2021"
+        date="Feb  - Jul 21"
       />
       <WorkExperienceUI
         src="/assets/lightspeed.png"
         alt="Lightspeed logo"
-        company="Lightspeed Commerce"
+        company="Lightspeed"
         role="Customer Success"
-        date="Jan 2017 - Jul 2019"
+        date="Jan 17 - Jul 19"
       />
       <WorkExperienceUI
         src="/assets/Intuit.png"
         alt="Intuit logo"
         company="Intuit"
         role="Business Development"
-        date="Mar 2016 - Nov 2016"
+        date="Mar 16 - Nov 16"
       />
     </ContainerLayout>
   );
