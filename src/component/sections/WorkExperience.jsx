@@ -32,7 +32,7 @@ const WorkExperience = () => {
         alt="ActiveCampaign logo"
         company="ActiveCampaign"
         role="Solutions Consultant"
-        date="Feb  - Jul 21"
+        date="Feb 20 - Jul 21"
       />
       <WorkExperienceUI
         src="/assets/lightspeed.png"
